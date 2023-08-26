@@ -1,0 +1,52 @@
+.home-bg {
+  height: 90vh;
+  background-image: url("../../../assets/icc-faculty.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.home-column {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 12%;
+}
+.wrapper-home {
+  background-color: rgba(5, 3, 3, 0.5);
+  padding: 5%;
+  color: #fff;
+  border-radius: 5px;
+}
+.home-h1 {
+  font-size: 5rem;
+  font-weight: bold;
+  color: white;
+  line-height: 5rem;
+}
+
+.home-h3 {
+  font-size: 3rem;
+  font-weight: bold;
+
+  color: white;
+  margin-top: 5%;
+}
+
+@media (max-width: 575.98px) {
+  .home-h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+  }
+
+  .home-h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 4rem;
+    color: white;
+    margin-top: 5%;
+  }
+  .home-column {
+    width: 100%;
+    margin: auto;
+    padding-top: 15%;
+  }
+}
